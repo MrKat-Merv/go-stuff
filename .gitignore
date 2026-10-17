@@ -1,0 +1,27 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+/bin/
+
+# Test and profiling output
+*.out
+*.prof
+coverage.*
+
+# Go workspace file (local only)
+go.work
+go.work.sum
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# MapReduce / course scratch output
+mr-out-*
+mr-tmp/
